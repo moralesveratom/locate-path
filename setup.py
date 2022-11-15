@@ -11,13 +11,13 @@ setup(
     description='demo example',
     long_description=readme(),
     long_description_content_type='text/markdown',
-    classifiers=[''],
-    url='',
+    classifiers=['Development Status :: 1 - Planning', 'Programming Language :: Python :: 3.10'],
+    url='https://github.com/moralesveratom/locatePath',
     author='tmorales',
     author_email='moralesveratomas@gmail.com',
     keywords=['python', 'path', 'locate', 'locator', 'pathLocator', 'pathLocate', 'locatorPath'],
     license='MIT',
-    packages=[''],
+    install_requires=['os', 'sys'],
     include_package_data=True,
     zip_safe=False
 )
