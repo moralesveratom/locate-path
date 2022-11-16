@@ -51,3 +51,4 @@ To develop this solution I used the Python 3.10 version.
 
 Make sure you're using the latest version.
 
+Run ```pip install --upgrade pip``` from console.
