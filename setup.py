@@ -7,7 +7,7 @@ def readme():
 
 
 setup(
-    name='pathlocator',
+    name='Keep41834',
     description='demo example',
     long_description=readme(),
     long_description_content_type='text/markdown',
@@ -17,7 +17,7 @@ setup(
     author_email='moralesveratomas@gmail.com',
     keywords=['python', 'path', 'locate', 'locator', 'pathLocator', 'pathLocate', 'locatorPath'],
     license='MIT',
-    install_requires=['os', 'sys'],
+    install_requires=[],
     include_package_data=True,
     zip_safe=False
 )
