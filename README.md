@@ -12,7 +12,7 @@ Install ```system-path-locator``` package with pip.
   pip install system-path-locator
 ```
 ##### Usage:
-1- import the package.
+1- Import the package.
 ```sh
 from system_path_locator import locator
 ```
