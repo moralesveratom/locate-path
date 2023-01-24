@@ -1,29 +1,20 @@
 
-# Path Locator
+# System Path Locator
 
 This package that allows you to do an sys.path.append one level above the repository for find the modules correctly when you run it from console.
 
 ## Installation
 
-Install ```path-locator``` package with pip.
+Install ```system-path-locator``` package with pip.
 
 
 ```bash
-  pip install path-locator
+  pip install system-path-locator
 ```
     
 ## Authors
 
 - [@tmorales](https://github.com/moralesveratom)
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
 
 
 ## License used
