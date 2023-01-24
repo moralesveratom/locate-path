@@ -1,9 +1,10 @@
 import os
 import sys
 
+
 def locate(repo_name):
 
-    if not repo_name.isdigit():
+    if type(repo_name) == str:
 
         disco_entero = os.getcwd()
         workspace = ''
@@ -49,4 +50,4 @@ def locate(repo_name):
             sys.path.append(workspace)
             return workspace
     else:
-        raise TypeError("The param for locator_searcher(repo_name) must be 'string'")
+        raise TypeError("The param for locate(repo_name) must be 'string'")
