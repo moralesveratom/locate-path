@@ -2,7 +2,7 @@
 # System Path Locator
 
 This package that allows you to do an sys.path.append one level above the repository for find the modules correctly when you run it from console.
-
+[Pypi Link](https://pypi.org/project/system-path-locator/0.0.0/)
 ## Installation
 
 Install ```system-path-locator``` package with pip.
@@ -34,7 +34,6 @@ with open(workspace + r"\automation\data\servers.json") as json_server:
 ## Authors
 
 - [@tmorales](https://github.com/moralesveratom)
-- [Pypi Link](https://pypi.org/project/system-path-locator/0.0.0/)
 
 ## License used
 
