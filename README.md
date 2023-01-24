@@ -34,7 +34,7 @@ with open(workspace + r"\automation\data\servers.json") as json_server:
 ## Authors
 
 - [@tmorales](https://github.com/moralesveratom)
-
+- [Pypi Link](https://pypi.org/project/system-path-locator/0.0.0/)
 
 ## License used
 
