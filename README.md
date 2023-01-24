@@ -11,7 +11,26 @@ Install ```system-path-locator``` package with pip.
 ```bash
   pip install system-path-locator
 ```
-    
+##### Usage:
+1- import the package.
+```sh
+from system_path_locator import locator
+```
+2- Use the package.
+```sh
+locator.locate('repo_name')
+```
+
+3- The function has returned the worspace value, that contains all the path until your repository.
+That can be used for json calls, and other purposes.
+```sh
+worspace = locator.locate('repo_name')
+```
+```sh
+with open(workspace + r"\automation\data\servers.json") as json_server:
+    server_json = json.load(json_server)
+```
+
 ## Authors
 
 - [@tmorales](https://github.com/moralesveratom)
